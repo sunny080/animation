@@ -1,0 +1,98 @@
+
+body {
+     background-image: url(gg.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     
+}
+
+
+
+
+
+
+
+.pos{
+    position: relative;
+    top: 180px;
+    left: 30%;
+}
+
+.box{
+   
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    position: relative;
+    top: auto;
+    animation-name: soon;
+    animation-duration:5s ;
+    animation-iteration-count:infinite ;
+    
+    
+}
+
+.bor{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/15/08/23/stars-2643089__480.jpg);
+    text-align: center;
+    width: 500px ;
+    height: 190px;
+    background-color:seagreen ;
+    margin-left:35px ;
+
+    
+
+}
+
+.run{
+    text-align: center;
+    padding: 10px;
+    margin-bottom :10px;
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 10px;
+
+
+}
+.go{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0px ;
+}
+
+.button{
+    padding: 8px;
+    width: 70px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: aquamarine;
+    transition: width 2s, height 2s;
+    
+}
+.run , .go :focus{
+    border: 0px;
+    border-radius: 10px;
+}
+
+
+.button:hover{
+    width: 100px;
+    height: 40px;
+    background-color: chartreuse;
+}
+
+
+
+
+
+
+@keyframes soon {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:536px; top:0px;}
+    50%  {background-color:blue; left: 536px; top:225px;}
+    75%  {background-color:green; left:0px; top:225px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
